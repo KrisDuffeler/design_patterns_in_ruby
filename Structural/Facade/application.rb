@@ -1,6 +1,6 @@
 Dir[File.dirname(__FILE__) + '/lib/*.rb'].each {|file| require file }
-Dir[File.dirname(__FILE__) + '/app/*.rb'].each {|file|  p file ; require file }
-Dir[File.dirname(__FILE__) + '/app/facades/*.rb'].each {|file|  p file ; require file }
+Dir[File.dirname(__FILE__) + '/app/*.rb'].each {|file| require file }
+Dir[File.dirname(__FILE__) + '/app/facades/*.rb'].each {|file|  require file }
 
 #http://www.dofactory.com/net/facade-design-pattern
  
